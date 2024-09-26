@@ -1,19 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ExecHub - Create: Nghia Dark", "Midnight")
----Info
-local Tab = Window:NewTab("Info")
-local Section = Tab:NewSection("Bảng Tin")
-Section:NewButton("Discord: https://discord.gg/vhNWmBS8", "OG", function()
-loadstring(game:HttpGet("github.com/cailonjv"))()
-end)
-Section:NewButton("Thông Báo:Add Andepzaihub,W-azure,RedzHub", "OG", function()
-loadstring(game:HttpGet("github.com/cailonjv"))()
-end)
-
 ---Tổng Hợp Script
 local Tab = Window:NewTab("Script No Key")
-local Section = Tab:NewSection("Tổng Hợp Script No Key")
-
+local Section = Tab:NewSection("Discord Để Nhận Thông Báo:https://discord.gg/vhNWmBS8")
 
 Section:NewButton("AnDepZai Hub", "OG", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
