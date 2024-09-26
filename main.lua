@@ -1,10 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ExecHub - Create: Nghia Dark", "Midnight")
----info
-local Tab = Window:NewTap("Info")
-local Concu = Tab:NewSection("Bản Tin")
-Concu:NewButton("Discord: Wait Me Update Link")
-
 ---Info
 local Tab = Window:NewTab("Info")
 local Section = Tab:NewSection("Bảng Tin")
