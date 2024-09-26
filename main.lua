@@ -3,7 +3,7 @@ local Window = Library.CreateLib("ExecHub - Create: Nghia Dark", "Midnight")
 ---Info
 local Tab = Window:NewTab("Info")
 local Section = Tab:NewSection("Bảng Tin")
-Section:NewButton("Discord: Wait Me Update", "OG", function()
+Section:NewButton("Discord: https://discord.gg/vhNWmBS8", "OG", function()
 loadstring(game:HttpGet("github.com/cailonjv"))()
 end)
 Section:NewButton("Thông Báo:Add Andepzaihub,W-azure,RedzHub", "OG", function()
